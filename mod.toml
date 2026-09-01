@@ -1,0 +1,14 @@
+schema_version = 1
+mod_id = "games.loreloom.unrestricted"
+version = "0.1.0"
+pack_id = "games.loreloom.unrestricted:pack/main"
+engine = "=0.1.0"
+content_schema = 1
+dependencies = []
+capabilities = ["content"]
+patches = []
+content_hash = "798f6e659483366824755cfdbb76b8c43a4eea331621ca76616a9389eb1c0bb2"
+
+[prompts]
+narrator = ["prompts/narrator.md"]
+npc = ["prompts/npc.md"]
